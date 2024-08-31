@@ -1,0 +1,310 @@
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\appsettings.Development.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\appsettings.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.exe
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.deps.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.runtimeconfig.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.pdb
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Core.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Identity.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Humanizer.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.CodeDom.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Memory.Data.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.csproj.AssemblyReference.cache
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.GeneratedMSBuildEditorConfig.editorconfig
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.AssemblyInfoInputs.cache
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.AssemblyInfo.cs
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.csproj.CoreCompileInputs.cache
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cs
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cache
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.build.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.development.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.FoodFestAPI.Microsoft.AspNetCore.StaticWebAssets.props
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.FoodFestAPI.props
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FoodFestAPI.props
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FoodFestAPI.props
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.pack.json
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\scopedcss\bundle\FoodFestAPI.styles.css
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFest.DE8D485B.Up2Date
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\refint\FoodFestAPI.dll
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.pdb
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.genruntimeconfig.cache
+P:\Application Project\Learning Project\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\ref\FoodFestAPI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\appsettings.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.exe
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.deps.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.runtimeconfig.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\FoodFestAPI.pdb
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Google.Protobuf.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\MySql.Data.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\MySqlConnector.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ZstdSharp.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.csproj.AssemblyReference.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.AssemblyInfoInputs.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.AssemblyInfo.cs
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.csproj.CoreCompileInputs.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.FoodFestAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.FoodFestAPI.props
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FoodFestAPI.props
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FoodFestAPI.props
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\scopedcss\bundle\FoodFestAPI.styles.css
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFest.DE8D485B.Up2Date
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\refint\FoodFestAPI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.pdb
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.genruntimeconfig.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\ref\FoodFestAPI.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Dapper.dll
