@@ -12,5 +12,7 @@ namespace FoodFestAPI.Models
         public string Country { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public ICollection<MealPlans> MealPlans { get; set; } = new List<MealPlans>();
     }
 }

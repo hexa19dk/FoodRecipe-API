@@ -4,6 +4,7 @@ using FoodFestAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodFestAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241009041946_MealEntriesToMealPlanDays")]
+    partial class MealEntriesToMealPlanDays
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -215,6 +218,30 @@ namespace FoodFestAPI.Migrations
                     b.ToTable("Instructions");
                 });
 
+            modelBuilder.Entity("FoodFestAPI.Models.MealEntries", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("MealPlanDayId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MealType")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("RecipeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RecipeId");
+
+                    b.ToTable("MealEntries");
+                });
+
             modelBuilder.Entity("FoodFestAPI.Models.MealPlanDays", b =>
                 {
                     b.Property<int>("Id")
@@ -226,6 +253,9 @@ namespace FoodFestAPI.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime");
 
+                    b.Property<int?>("MealEntriesId")
+                        .HasColumnType("int");
+
                     b.Property<int>("MealPlanId")
                         .HasColumnType("int");
 
@@ -233,6 +263,8 @@ namespace FoodFestAPI.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MealEntriesId");
 
                     b.HasIndex("MealPlansId");
 
@@ -253,29 +285,18 @@ namespace FoodFestAPI.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime");
 
-                    b.Property<string>("MealType")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<string>("PlanName")
-                        .IsRequired()
                         .HasColumnType("longtext");
-
-                    b.Property<int>("RecipeId")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime");
 
                     b.Property<string>("UserID")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId");
-
-                    b.HasIndex("RecipeId");
 
                     b.ToTable("MealPlans");
                 });
@@ -508,13 +529,24 @@ namespace FoodFestAPI.Migrations
                     b.Navigation("Recipe");
                 });
 
+            modelBuilder.Entity("FoodFestAPI.Models.MealEntries", b =>
+                {
+                    b.HasOne("FoodFestAPI.Models.Recipe", null)
+                        .WithMany("MealEntries")
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("FoodFestAPI.Models.MealPlanDays", b =>
                 {
-                    b.HasOne("FoodFestAPI.Models.MealPlans", "MealPlans")
+                    b.HasOne("FoodFestAPI.Models.MealEntries", null)
+                        .WithMany("MealPlanDays")
+                        .HasForeignKey("MealEntriesId");
+
+                    b.HasOne("FoodFestAPI.Models.MealPlans", null)
                         .WithMany("MealPlanDays")
                         .HasForeignKey("MealPlansId");
-
-                    b.Navigation("MealPlans");
                 });
 
             modelBuilder.Entity("FoodFestAPI.Models.MealPlans", b =>
@@ -522,12 +554,6 @@ namespace FoodFestAPI.Migrations
                     b.HasOne("FoodFestAPI.Models.AppUser", null)
                         .WithMany("MealPlans")
                         .HasForeignKey("AppUserId");
-
-                    b.HasOne("FoodFestAPI.Models.Recipe", null)
-                        .WithMany("MealPlans")
-                        .HasForeignKey("RecipeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("FoodFestAPI.Models.Recipe", b =>
@@ -612,6 +638,11 @@ namespace FoodFestAPI.Migrations
                     b.Navigation("MealPlans");
                 });
 
+            modelBuilder.Entity("FoodFestAPI.Models.MealEntries", b =>
+                {
+                    b.Navigation("MealPlanDays");
+                });
+
             modelBuilder.Entity("FoodFestAPI.Models.MealPlans", b =>
                 {
                     b.Navigation("MealPlanDays");
@@ -623,7 +654,7 @@ namespace FoodFestAPI.Migrations
 
                     b.Navigation("Instructions");
 
-                    b.Navigation("MealPlans");
+                    b.Navigation("MealEntries");
 
                     b.Navigation("UserFavorites");
                 });

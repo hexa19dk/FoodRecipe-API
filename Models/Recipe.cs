@@ -26,5 +26,6 @@ namespace FoodFestAPI.Models
         public ICollection<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
         public ICollection<Instructions> Instructions { get; set; } = new List<Instructions>();
         public ICollection<UserFavorite> UserFavorites { get; set; } = new List<UserFavorite>();
+        public ICollection<MealPlans> MealPlans { get; set; } = new List<MealPlans>();
     }
 }

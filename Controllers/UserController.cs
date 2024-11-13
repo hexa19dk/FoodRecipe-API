@@ -1,11 +1,11 @@
-﻿using Azure;
-using FoodFestAPI.Data;
+﻿using FoodFestAPI.Data;
 using FoodFestAPI.Helpers;
 using FoodFestAPI.Models;
 using FoodFestAPI.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
+using System.Data;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,22 +18,16 @@ namespace FoodFestAPI.Controllers
         private readonly ApplicationDbContext _ctx;
         private ApiResponse _response;
         private readonly IImageService _imgService;
-        public UserController(ApplicationDbContext ctx, IConfiguration config, IImageService imgService) 
+        private readonly ILogger<UserController> _log;
+        public UserController(ApplicationDbContext ctx, IConfiguration config, IImageService imgService, ILogger<UserController> log)
         {
             _ctx = ctx;
             _response = new ApiResponse();
             _imgService = imgService;
+            _log = log;
         }
 
-        // GET: api/<UserController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<UserController>/5
-        [HttpGet("{id}", Name = "GetUserById")]
+        [HttpGet("{id}", Name = "userById")]
         public async Task<IActionResult> GetUserById(string id)
         {
             var userId = await _ctx.Users.FirstOrDefaultAsync(x => x.Id == id);
@@ -49,6 +43,39 @@ namespace FoodFestAPI.Controllers
             _response.IsSuccess = true;
             _response.StatusCode = HttpStatusCode.OK;
             return Ok(_response);
+        }
+
+        [HttpGet("get-favorite-byUserId")]
+        public async Task<IActionResult> GetFavRecipeByUserId(string userId)
+        {
+            try
+            {
+                var favRecipesQuery = await _ctx.Recipes.Join(
+                            _ctx.UserFavorites.Where(uf => uf.UserId == userId),
+                            r => r.Id,
+                            uf => uf.RecipeId,
+                            (r, uf) => new { 
+                                UserId = userId,
+                                FavoriteId = uf.Id,
+                                RecipeId = r.Id,
+                                RecipeName = r.Name,
+                                ImageUrl = r.ImageUrl,
+                                Description = r.Description
+                            }).OrderBy(x => x.RecipeId).ToListAsync();
+
+                _response.StatusCode = HttpStatusCode.OK;
+                _response.IsSuccess = true;
+                _response.Result = favRecipesQuery;
+                return Ok(_response);
+            }
+            catch(Exception ex)
+            {
+                _log.LogInformation($"Internal server error, {ex.Message}");
+                _response.IsSuccess = false;
+                _response.StatusCode = HttpStatusCode.InternalServerError;
+                _response.ErrorMessages = new List<string>() { ex.ToString() };
+                return StatusCode(500, _response);
+            }            
         }
 
         // PUT api/<UserController>/5

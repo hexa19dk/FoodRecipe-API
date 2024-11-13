@@ -27,11 +27,48 @@ namespace FoodFestAPI.Controllers
         }
 
         [HttpGet("get-favoriteBy-userId/{userId?}")]
-        public async Task<ActionResult<FavoriteRecipeDTO>> getFavoriteByUserId(string userId)
+        public async Task<ActionResult<FavoriteRecipeDTO>> getFavoriteByUserId(string userId, int pageNumber, int pageSize)
         {
             try
             {
-                if (userId == null)
+                if (userId != null)
+                {
+                    var query = from r in _ctx.Recipes
+                                  join fr in _ctx.UserFavorites
+                                  on new { RecipeId = r.Id, UserId = userId } equals new { RecipeId = fr.RecipeId, UserId = fr.UserId } into favorites
+                                  from f in favorites.DefaultIfEmpty()
+                                  select new
+                                  {
+                                      RecipeName = r.Name,
+                                      FavoriteId = f != null ? f.Id : 0,
+                                      RecipeId = r.Id,
+                                      UserId = f != null ? f.UserId : null,
+                                      Description = r.Description,
+                                      ImageUrl = r.ImageUrl,
+                                      CreatedAt = r.CreatedAt,
+                                      IsFavorited = f != null ? 1 : 0
+                                  };
+
+                    int totalRecords = await query.CountAsync();
+
+                    var favRecipePages = await query
+                        .OrderBy(f => f.RecipeId)
+                        .Skip((pageNumber - 1) * pageSize)
+                        .Take(pageSize)
+                        .ToListAsync();
+
+                    _response.StatusCode    = HttpStatusCode.OK;
+                    _response.IsSuccess     = true;
+                    _response.Result        = new
+                    {
+                        TotalRecords = totalRecords,
+                        PageNumber = pageNumber,
+                        PageSize = pageSize,
+                        TotalPages = (int)Math.Ceiling(totalRecords / (double)pageSize),
+                        FavoriteRecipes = favRecipePages
+                    };
+                }
+                else
                 {
                     var query = from r in _ctx.Recipes
                                 join uf in _ctx.UserFavorites
@@ -48,45 +85,36 @@ namespace FoodFestAPI.Controllers
                                     r.CreatedAt
                                 };
 
-                    var result = query.OrderBy(r => r.RecipeId).ToList();
+                    int totalRecords = await query.CountAsync();
 
-                    _response.StatusCode = HttpStatusCode.OK;
-                    _response.IsSuccess = true;
-                    _response.Result = result;
+                    var favRecipePages = await query
+                        .OrderBy(f => f.RecipeId)
+                        .Skip((pageNumber - 1) * pageSize)
+                        .Take(pageSize)
+                        .ToListAsync();
+
+                    _response.StatusCode    = HttpStatusCode.OK;
+                    _response.IsSuccess     = true;
+                    _response.Result        = new
+                    {
+                        TotalRecords = totalRecords,
+                        PageNumber = pageNumber,
+                        PageSize = pageSize,
+                        TotalPages = (int)Math.Ceiling(totalRecords / (double)pageSize),
+                        FavoriteRecipes = favRecipePages
+                    };
                 }
-                else
-                {
-                    var recipes = from r in _ctx.Recipes
-                                  join fr in _ctx.UserFavorites
-                                  on new { RecipeId = r.Id, UserId = userId } equals new { RecipeId = fr.RecipeId, UserId = fr.UserId } into favorites
-                                  from f in favorites.DefaultIfEmpty()
-                                  select new
-                                  {
-                                      RecipeName = r.Name,
-                                      FavoriteId = f != null ? f.Id : 0,
-                                      RecipeId = r.Id,
-                                      UserId = f != null ? f.UserId : null,
-                                      Description = r.Description,
-                                      ImageUrl = r.ImageUrl,
-                                      CreatedAt = r.CreatedAt,
-                                      IsFavorited = f != null ? 1 : 0
-                                  };
-                    var result = recipes.OrderBy(r => r.RecipeId).ToList();
 
-                    _response.StatusCode = HttpStatusCode.OK;
-                    _response.IsSuccess = true;
-                    _response.Result = result;
-                }                
+                return Ok(_response);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _log.LogInformation($"Internal server error, {ex.Message}");
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.InternalServerError;
+                _response.IsSuccess     = false;
+                _response.StatusCode    = HttpStatusCode.InternalServerError;
                 _response.ErrorMessages = new List<string>() { ex.ToString() };
-            }            
-
-            return Ok(_response);
+                return StatusCode(500, _response);
+            }
         }
         
         [HttpGet("get-by-recipe-id")]
@@ -114,15 +142,27 @@ namespace FoodFestAPI.Controllers
             {
                 foreach (var item in request.favoriteDTOs)
                 {
-                    if (item.RecipeId == 0 && item.UserId == null)
+                    if (item.RecipeId == 0 || item.UserId == null)
                     {
-                        _response.StatusCode = HttpStatusCode.BadRequest;
+                        _response.StatusCode = HttpStatusCode.NotFound;
                         _response.IsSuccess = false;
-                        _response.ErrorMessages = new List<string>();
-                        return BadRequest($"Bad requset: recipeId or userId not found {_response}");
+                        _response.ErrorMessages ??= new List<string>();
+                        _response.ErrorMessages.Add($"recipeId or userId not found {_response}");
+                        continue;
+                        //return BadRequest($"recipeId or userId not found {_response}");
                     }
 
                     var checkToFavorite = await _ctx.UserFavorites.FirstOrDefaultAsync(r => r.RecipeId == item.RecipeId && r.UserId == item.UserId);
+
+                    if (checkToFavorite != null && item.IsFavorited == 1)
+                    {
+                        _response.StatusCode = HttpStatusCode.BadRequest;
+                        _response.IsSuccess = false;
+                        _response.ErrorMessages ??= new List<string>();
+                        _response.ErrorMessages.Add($"Bad request: data with userId: {item.UserId}, recipeId: {item.RecipeId}, and isFavorite: {item.IsFavorited} already exists");
+                        continue;
+                        //return BadRequest($"Bad request: data with userId: {item.UserId}, recipeId: {item.RecipeId}, and isFavorite: {item.IsFavorited}");                        
+                    }
 
                     if (checkToFavorite != null)
                     {
@@ -140,7 +180,7 @@ namespace FoodFestAPI.Controllers
             }
             catch (Exception ex)
             {
-                _log.LogInformation($"Internal server error, {ex.Message}");
+                _log.LogError($"Internal server error, {ex.Message}");
                 _response.IsSuccess = false;
                 _response.StatusCode = HttpStatusCode.InternalServerError;
                 _response.ErrorMessages = new List<string>() { ex.ToString() };
@@ -154,17 +194,6 @@ namespace FoodFestAPI.Controllers
         {
             try
             {
-                //List<UserFavorite> lFavorite = new List<UserFavorite>();
-
-                //foreach(var item in request.favoriteDTOs)
-                //{
-                //    lFavorite.Add(new UserFavorite
-                //    {
-                //        UserId = item.UserId,
-                //        RecipeId = item.RecipeId,
-                //        FavoriteOn = DateTime.Now
-                //    });
-                //}
                 UserFavorite fav = new UserFavorite()
                 {
                     UserId = request.UserId,

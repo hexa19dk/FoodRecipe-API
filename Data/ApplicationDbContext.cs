@@ -15,6 +15,9 @@ namespace FoodFestAPI.Data
         public DbSet<Categories> Categories { get; set; }
         public DbSet<Instructions> Instructions { get; set; }
         public DbSet<UserFavorite> UserFavorites { get; set; }
+        public DbSet<MealPlans> MealPlans { get; set; }
+        public DbSet<MealPlanDays> MealPlanDays { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

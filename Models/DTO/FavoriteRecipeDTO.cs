@@ -1,4 +1,6 @@
-﻿namespace FoodFestAPI.Models.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FoodFestAPI.Models.DTO
 {
     public class FavoriteRecipeDTO
     {
@@ -19,8 +21,11 @@
 
     public class FavoriteDTO
     {
+        [Required]
         public int RecipeId { get; set; }
+        [Required]
         public string UserId { get; set; }
         public DateTime FavoriteOn { get; set; }
+        public int IsFavorited { get; set; }
     }
 }

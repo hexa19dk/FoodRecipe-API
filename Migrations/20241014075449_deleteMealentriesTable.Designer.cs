@@ -4,6 +4,7 @@ using FoodFestAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodFestAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241014075449_deleteMealentriesTable")]
+    partial class deleteMealentriesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -253,12 +256,13 @@ namespace FoodFestAPI.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime");
 
+                    b.Property<int>("MealPlanDayId")
+                        .HasColumnType("int");
+
                     b.Property<string>("MealType")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("PlanName")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("RecipeId")
@@ -268,7 +272,6 @@ namespace FoodFestAPI.Migrations
                         .HasColumnType("datetime");
 
                     b.Property<string>("UserID")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
@@ -510,11 +513,9 @@ namespace FoodFestAPI.Migrations
 
             modelBuilder.Entity("FoodFestAPI.Models.MealPlanDays", b =>
                 {
-                    b.HasOne("FoodFestAPI.Models.MealPlans", "MealPlans")
+                    b.HasOne("FoodFestAPI.Models.MealPlans", null)
                         .WithMany("MealPlanDays")
                         .HasForeignKey("MealPlansId");
-
-                    b.Navigation("MealPlans");
                 });
 
             modelBuilder.Entity("FoodFestAPI.Models.MealPlans", b =>

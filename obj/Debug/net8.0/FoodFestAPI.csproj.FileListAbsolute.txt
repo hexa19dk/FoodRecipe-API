@@ -156,6 +156,7 @@ D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Core.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Azure.Identity.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Dapper.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Google.Protobuf.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Humanizer.dll
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
@@ -293,6 +294,7 @@ D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.Assemb
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.csproj.CoreCompileInputs.cache
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.sourcelink.json
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\staticwebassets\msbuild.FoodFestAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -307,4 +309,3 @@ D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\refint\FoodFestAPI
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.pdb
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\FoodFestAPI.genruntimeconfig.cache
 D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\obj\Debug\net8.0\ref\FoodFestAPI.dll
-D:\Projects\FoodFest\FoodFestAPI\FoodFestAPI\bin\Debug\net8.0\Dapper.dll
